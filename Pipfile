@@ -9,6 +9,8 @@ verify_ssl = true
 panel = "*"
 elasticsearch = "*"
 pandasticsearch = "*"
+notebook = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.8"

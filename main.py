@@ -43,6 +43,9 @@ def main():
     mb = pdsh.Select.from_dict(table).to_pandas()
     df0 = dummy_data()
 
+    pn.Column(*(pn.widgets.Button(name=p, button_type=p) 
+    for p in pn.widgets.Button.param.button_type.objects))
+
 
 
 if __name__ == '__main__':
